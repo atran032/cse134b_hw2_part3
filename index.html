@@ -8,6 +8,11 @@
 <body>
   <header>
     <h1>Quantum Entanglement of Coffee Molecules: A Novel Approach to Productivity Enhancement</h1>
+    <p>Published June 12, 2025</p>
+    <p>Dr. Wilhelmina Quark<sup>1,2</sup>, Prof. Magnus Neutrino<sup>1</sup>, Dr. Sarah Photon<sup>3</sup></p>
+    <p><sup>1</sup>Department of Applied Caffeination, Globocorp Research Institute</p>
+    <p><sup>2</sup>Center for Temporal Mechanics, New New York</p>
+    <p><sup>3</sup>Quantum Beverage Laboratory, Globocorp Industries</p>
     <hr>
     <form role="search" aria-label="Search within article">
       <label for="article-search"><strong>Search within article:</strong></label>
@@ -203,21 +208,24 @@
       <form>
         <fieldset>
           <legend>Quick Feedback</legend>
-          <optgroup label="Common coffee types">
-            <label><input type="radio" name="coffee" value="espresso"> Espresso</label><br>
-            <label><input type="radio" name="coffee" value="latte"> Latte</label><br>
-            <label><input type="radio" name="coffee" value="americano"> Americano</label><br>
-            <label><input type="radio" name="coffee" value="cappuccino"> Cappuccino</label><br>
-            <label><input type="radio" name="coffee" value="coldbrew"> Cold Brew</label>
-          </optgroup>
-
-          <optgroup label="Niche or rare coffee types">
-            <label><input type="radio" name="coffee" value="kopiluwak"> Kopi Luwak</label><br>
-            <label><input type="radio" name="coffee" value="geisha"> Panama Geisha</label><br>
-            <label><input type="radio" name="coffee" value="blue_mountain"> Jamaican Blue Mountain</label><br>
-            <label><input type="radio" name="coffee" value="monsooned_malabar"> Monsooned Malabar</label><br>
-            <label><input type="radio" name="coffee" value="yirgacheffe"> Ethiopian Yirgacheffe</label>
-          </optgroup>
+          <label for="favorite-coffee">Favorite Coffee:</label>
+          <select id="favorite-coffee" name="coffee">
+            <optgroup label="Common coffee types">
+              <option value="espresso">Espresso</option>
+              <option value="latte">Latte</option>
+              <option value="americano">Americano</option>
+              <option value="cappuccino">Cappuccino</option>
+              <option value="coldbrew">Cold Brew</option>
+            </optgroup>
+      
+            <optgroup label="Niche or rare coffee types">
+              <option value="kopiluwak">Kopi Luwak</option>
+              <option value="geisha">Panama Geisha</option>
+              <option value="blue_mountain">Jamaican Blue Mountain</option>
+              <option value="monsooned_malabar">Monsooned Malabar</option>
+              <option value="yirgacheffe">Ethiopian Yirgacheffe</option>
+            </optgroup>
+          </select>
           
           <label for="cool-keyword">Coolest-sounding keyword:</label>
           <input list="keywords" id="cool-keyword" name="cool-keyword" placeholder="type or choose">
