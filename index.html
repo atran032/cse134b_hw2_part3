@@ -9,6 +9,11 @@
   <header>
     <h1>Quantum Entanglement of Coffee Molecules: A Novel Approach to Productivity Enhancement</h1>
     <hr>
+    <form role="search" aria-label="Search within article">
+      <label for="article-search"><strong>Search within article:</strong></label>
+      <input type="search" id="article-search" name="q" placeholder="Enter keyword..." />
+      <button type="submit">Search</button>
+    </form>
   </header>
 
   <main>
@@ -101,46 +106,44 @@
       <h2>3. Results</h2>
       <h3>3.1 Productivity Metrics</h3>
       <p>Analysis revealed significant improvements across all measured parameters:</p>
-      <figure>
-        <figcaption style="margin: 0 auto;">Table 1: Productivity improvements by group</figcaption>
-        <table style="margin: 0 auto;">
-          <colgroup>
-            <col span="5" style="width: 20%;">
-          </colgroup>
-          <thead>
-            <tr>
-              <th><strong>Metric</strong></th>
-              <th><strong>Control</strong></th>
-              <th><strong>Quantum</strong></th>
-              <th><strong>Placebo</strong></th>
-              <th><strong>p-value</strong></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Task Completion Rate (%)</td>
-              <td>62.3 ± 5.1</td>
-              <td>91.8 ± 3.2</td>
-              <td>64.1 ± 4.8</td>
-              <td>&lt;0.001</td>
-            </tr>
-            <tr>
-              <td>Error Rate (%)</td>
-              <td>8.7 ± 1.2</td>
-              <td>2.1 ± 0.4</td>
-              <td>8.3 ± 1.1</td>
-              <td>&lt;0.001</td>
-            </tr>
-            <tr>
-              <td>Meeting Efficiency (units)</td>
-              <td>3.2 ± 0.8</td>
-              <td>8.9 ± 0.6</td>
-              <td>3.4 ± 0.7</td>
-              <td>&lt;0.001</td>
-            </tr>
-          </tbody>
-        </table>
-      </figure>
+      <caption style="margin: 0 auto;">Table 1: Productivity improvements by group</figcaption>
+      <table style="margin: 0 auto;">
+        <colgroup>
+          <col span="5" style="width: 20%;">
+        </colgroup>
+        <thead>
+          <tr>
+            <th><strong>Metric</strong></th>
+            <th><strong>Control</strong></th>
+            <th><strong>Quantum</strong></th>
+            <th><strong>Placebo</strong></th>
+            <th><strong>p-value</strong></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Task Completion Rate (%)</td>
+            <td>62.3 ± 5.1</td>
+            <td>91.8 ± 3.2</td>
+            <td>64.1 ± 4.8</td>
+            <td>&lt;0.001</td>
+          </tr>
+          <tr>
+            <td>Error Rate (%)</td>
+            <td>8.7 ± 1.2</td>
+            <td>2.1 ± 0.4</td>
+            <td>8.3 ± 1.1</td>
+            <td>&lt;0.001</td>
+          </tr>
+          <tr>
+            <td>Meeting Efficiency (units)</td>
+            <td>3.2 ± 0.8</td>
+            <td>8.9 ± 0.6</td>
+            <td>3.4 ± 0.7</td>
+            <td>&lt;0.001</td>
+          </tr>
+        </tbody>
+      </table>
 
       <h3>3.2 Temporal Analysis</h3>
       <p>The quantum entanglement effect showed remarkable persistence throughout the workday. Peak productivity occured at 10:47 AM, with sustained effects until 4:23 PM.</p>
@@ -196,6 +199,45 @@
   </main>
 
   <footer>
+    <section>
+      <h2>Quick Feedback</h2>
+      <form>
+        <fieldset>
+          <legend>Favorite Coffee</legend>
+          <optgroup label="Common coffee types">
+            <label><input type="radio" name="coffee" value="espresso"> Espresso</label><br>
+            <label><input type="radio" name="coffee" value="latte"> Latte</label><br>
+            <label><input type="radio" name="coffee" value="americano"> Americano</label><br>
+            <label><input type="radio" name="coffee" value="cappuccino"> Cappuccino</label><br>
+            <label><input type="radio" name="coffee" value="coldbrew"> Cold Brew</label>
+          </optgroup>
+
+          <optgroup label="Niche or rare coffee types">
+            <label><input type="radio" name="coffee" value="kopiluwak"> Kopi Luwak</label><br>
+            <label><input type="radio" name="coffee" value="geisha"> Panama Geisha</label><br>
+            <label><input type="radio" name="coffee" value="blue_mountain"> Jamaican Blue Mountain</label><br>
+            <label><input type="radio" name="coffee" value="monsooned_malabar"> Monsooned Malabar</label><br>
+            <label><input type="radio" name="coffee" value="yirgacheffe"> Ethiopian Yirgacheffe</label>
+          </optgroup>
+        </fieldset>
+
+        <fieldset>
+          <legend>Coolest-sounding keyword</legend>
+          <label for="cool-keyword">Choose or type:</label>
+          <input list="keywords" id="cool-keyword" name="cool-keyword" placeholder="type or choose">
+          <datalist id="keywords">
+            <option value="quantum entanglement">
+            <option value="caffeine dynamics">
+            <option value="temporal mechanics">
+            <option value="corporate physics">
+            <option value="productivity paradox">
+          </datalist>
+        </fieldset>
+
+        <button type="submit">Submit Feedback</button>
+      </form>
+    </section>
+    
     <address>
       <hr>
       <p><em>Correspondence should be dirrected to:<br>
